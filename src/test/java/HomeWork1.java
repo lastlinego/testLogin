@@ -11,5 +11,10 @@ public class HomeWork1 {
     public void login(){
         driver.get("https://rozetka.com.ua/");
         driver.findElement(By.xpath("//*[@id=\"header_user_menu_parent\"]")).click();
+        driver.findElement(By.xpath("//*[@id=\"popup_signin\"]/div[1]/div[1]/input")).sendKeys("vova@yopmail.com");
+        driver.findElement(By.xpath("//*[@id=\"popup_signin\"]/div[1]/div[2]/div[1]/div[1]/input")).sendKeys("Gfhjkm123");
+        driver.findElement(By.xpath("//*[@id=\"popup_signin\"]/div[1]/div[2]/div[1]/div[2]/div/span/button")).click();
+        driver.quit();
+
     }
 }
