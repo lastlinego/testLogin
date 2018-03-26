@@ -13,6 +13,15 @@ public class Registration {
         Thread.sleep(3000);
         driver.findElement(By.xpath("//span[@class='exponea-close']")).click();
         driver.findElement(By.xpath("//div[@class='auth-f-signup']")).click();
+        driver.findElement(By.xpath("//input[@name='title']")).sendKeys("Arnold");
+        driver.findElement(By.xpath("//input[@name='login']")).sendKeys("arni@yopmail.com");
+        driver.findElement(By.xpath("//input[@name='password']")).sendKeys("Gfhjkm123");
+        driver.findElement(By.xpath("//button[@class='btn-link-i'][contains(text(),'Зарегистрироваться')]")).click();
+        Thread.sleep(2000);
+        driver.getTitle().contains("Личные данные");
+        driver.quit();
+
+
 
     }
 }

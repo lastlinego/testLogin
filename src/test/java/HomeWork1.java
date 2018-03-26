@@ -13,7 +13,7 @@ public class HomeWork1 {
         driver.manage().window().maximize();
         driver.findElement(By.xpath("//*[@id='header_user_menu_parent']")).click();
         Thread.sleep(3000);
-        driver.findElement(By.xpath("//input[@name='login']")).sendKeys("vova@yopmail.com");
+        driver.findElement(By.xpath("//input[@name='login']")).sendKeys("arni@yopmail.com");
         driver.findElement(By.xpath("(//input[@name='password'])[1]")).sendKeys("Gfhjkm123");
         driver.findElement(By.xpath("//button[@class='btn-link-i'][@name='auth_submit']")).click();
         Thread.sleep(5000);
