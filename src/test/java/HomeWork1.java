@@ -7,7 +7,7 @@ public class HomeWork1 {
 
     WebDriver driver = new ChromeDriver();
 
-    @Test
+   @Test
     public void login() throws InterruptedException {
         driver.get("https://rozetka.com.ua/");
         driver.manage().window().maximize();
