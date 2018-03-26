@@ -11,8 +11,8 @@ public class Registration {
         driver.manage().window().maximize();
         driver.findElement(By.xpath("//*[@id='header_user_menu_parent']")).click();
         Thread.sleep(3000);
+        driver.findElement(By.xpath("//span[@class='exponea-close']")).click();
         driver.findElement(By.xpath("//div[@class='auth-f-signup']")).click();
 
     }
 }
-пше

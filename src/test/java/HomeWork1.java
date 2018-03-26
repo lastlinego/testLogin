@@ -15,7 +15,8 @@ public class HomeWork1 {
         Thread.sleep(3000);
         driver.findElement(By.xpath("//input[@name='login']")).sendKeys("vova@yopmail.com");
         driver.findElement(By.xpath("(//input[@name='password'])[1]")).sendKeys("Gfhjkm123");
-        driver.findElement(By.xpath("//*[@id='popup_signin']/div[1]/div[2]/div[1]/div[2]/div/span/button")).click();
+        driver.findElement(By.xpath("//button[@class='btn-link-i'][@name='auth_submit']")).click();
+        Thread.sleep(5000);
         driver.quit();
 
     }
