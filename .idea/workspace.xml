@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1e77438c-2a68-4a87-8322-321e7059d479" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/HomeWork1.java" afterPath="$PROJECT_DIR$/src/test/java/HomeWork1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Registration.java" afterPath="$PROJECT_DIR$/src/test/java/Registration.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,11 +26,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeWork1.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HomeWork1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/HomeWork1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Registration.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Registration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,6 +72,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/HomeWork1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Registration.java" />
       </list>
     </option>
   </component>
@@ -71,8 +84,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="52" />
-    <option name="y" value="66" />
+    <option name="x" value="45" />
+    <option name="y" value="18" />
     <option name="width" value="1795" />
     <option name="height" value="1004" />
   </component>
@@ -92,20 +105,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="test1" type="58d84e3e:PackageViewProjectNode" />
-              <item name="test1" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,6 +140,20 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="test1" type="58d84e3e:PackageViewProjectNode" />
+              <item name="test1" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -160,7 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.HomeWork1">
+  <component name="RunManager" selected="TestNG.Registration">
     <configuration name="HomeWork1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="test1" />
@@ -169,6 +182,33 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HomeWork1" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Registration" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="test1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Registration" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -269,9 +309,14 @@
       <properties />
       <listeners />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="TestNG.HomeWork1" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.Registration" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.HomeWork1" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="TestNG.Registration" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.HomeWork1" />
       </list>
     </recent_temporary>
   </component>
@@ -289,43 +334,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HomeWork1 - 2017.12.13 at 11h 04m 10s.xml">
-      <configuration name="HomeWork1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomeWork1 - 2018.03.26 at 09h 54m 29s.xml">
-      <configuration name="HomeWork1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomeWork1 - 2018.03.26 at 10h 05m 19s.xml">
-      <configuration name="HomeWork1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomeWork1 - 2018.03.26 at 10h 06m 37s.xml">
-      <configuration name="HomeWork1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomeWork1 - 2018.03.26 at 10h 11m 42s.xml">
-      <configuration name="HomeWork1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomeWork1 - 2018.03.26 at 10h 12m 13s.xml">
-      <configuration name="HomeWork1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomeWork1 - 2018.03.26 at 10h 16m 19s.xml">
-      <configuration name="HomeWork1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomeWork1 - 2018.03.26 at 10h 17m 36s.xml">
-      <configuration name="HomeWork1" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="HomeWork1 - 2018.03.26 at 10h 18m 08s.xml">
       <configuration name="HomeWork1" configurationId="TestNG" />
     </history-entry>
     <history-entry file="HomeWork1 - 2018.03.26 at 10h 24m 53s.xml">
       <configuration name="HomeWork1" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="HomeWork1 - 2018.03.26 at 14h 45m 47s.xml">
+      <configuration name="HomeWork1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomeWork1 - 2018.03.26 at 14h 48m 35s.xml">
+      <configuration name="HomeWork1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomeWork1 - 2018.03.26 at 14h 49m 29s.xml">
+      <configuration name="HomeWork1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomeWork1 - 2018.03.26 at 15h 03m 58s.xml">
+      <configuration name="HomeWork1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomeWork1 - 2018.03.26 at 15h 11m 45s.xml">
+      <configuration name="HomeWork1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomeWork1 - 2018.03.26 at 15h 15m 09s.xml">
+      <configuration name="HomeWork1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomeWork1 - 2018.03.26 at 15h 17m 09s.xml">
+      <configuration name="HomeWork1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Registration - 2018.03.26 at 15h 18m 09s.xml">
+      <configuration name="Registration" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="52" y="66" width="1795" height="1004" extended-state="0" />
+    <frame x="45" y="18" width="1795" height="1004" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -347,6 +391,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -359,6 +404,90 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/HomeWork1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Registration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Registration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/HomeWork1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Registration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/HomeWork1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -396,7 +525,17 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/HomeWork1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Registration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
