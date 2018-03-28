@@ -21,8 +21,5 @@ public class Registration {
         Thread.sleep(5000);
         Assert.assertTrue(driver.getTitle().contains("Личные данные"));
         driver.quit();
-
-
-
     }
 }

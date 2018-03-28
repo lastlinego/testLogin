@@ -4,7 +4,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 import org.testng.Assert;
 
-public class findProductByName {
+public class FindProductByName {
     WebDriver driver = new ChromeDriver();
 
     @Test
@@ -22,11 +22,6 @@ public class findProductByName {
         Assert.assertTrue(driver.findElement(By.xpath("//a[@class='novisited cart-i-title-link']")).getText().contains("BOSCH KGN39VI35"));
         Thread.sleep(500);
       //  driver.quit();
-
-
-
-
-
     }
 
 }
