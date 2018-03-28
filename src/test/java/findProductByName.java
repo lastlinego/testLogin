@@ -2,6 +2,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
+import org.testng.Assert;
 
 public class findProductByName {
     WebDriver driver = new ChromeDriver();
@@ -14,11 +15,13 @@ public class findProductByName {
         Thread.sleep(1500);
         driver.findElement(By.xpath("//button[@class='btn-link-i'][@name='topurchases']")).click();
         Thread.sleep(1500);
-        driver.findElement(By.xpath("//a[@class='btn-link-i'][@name='close']")).click();
+        driver.findElement(By.xpath("//a[@href='#'][contains(text(),'Продолжить покупки')]")).click();
+        Thread.sleep(2000);
         driver.findElement(By.xpath("//span[@class='xhr'][contains(text(),'Корзина')]")).click();
-        driver.findElement(By.xpath("//a[@name='goods-link']")).getText().contains("BOSCH KGN39VI35");
-        Thread.sleep(500);
-        driver.quit();
+        Thread.sleep(2000);
+      //  Assert.assertTrue(driver.findElement(By.xpath("//a[@class='novisited cart-i-title-link']")).getText().contains("BOSCH KGN39VI35"));
+        //Thread.sleep(500);
+      //  driver.quit();
 
 
 
