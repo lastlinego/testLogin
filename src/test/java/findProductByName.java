@@ -14,13 +14,13 @@ public class findProductByName {
         driver.findElement(By.xpath("//button[@class='btn-link-i js-rz-search-button']")).click();
         Thread.sleep(1500);
         driver.findElement(By.xpath("//button[@class='btn-link-i'][@name='topurchases']")).click();
-        Thread.sleep(1500);
+        Thread.sleep(4000);
         driver.findElement(By.xpath("//a[@href='#'][contains(text(),'Продолжить покупки')]")).click();
         Thread.sleep(2000);
         driver.findElement(By.xpath("//span[@class='xhr'][contains(text(),'Корзина')]")).click();
         Thread.sleep(2000);
-      //  Assert.assertTrue(driver.findElement(By.xpath("//a[@class='novisited cart-i-title-link']")).getText().contains("BOSCH KGN39VI35"));
-        //Thread.sleep(500);
+        Assert.assertTrue(driver.findElement(By.xpath("//a[@class='novisited cart-i-title-link']")).getText().contains("BOSCH KGN39VI35"));
+        Thread.sleep(500);
       //  driver.quit();
 
 
